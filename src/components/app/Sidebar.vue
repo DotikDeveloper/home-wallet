@@ -1,5 +1,6 @@
 <template>
   <ul class="sidenav app-sidenav open">
+    <router-link tag="li" to="/profile"> Профиль </router-link>
     <li>
       <a href="#" class="waves-effect waves-orange pointer">Счет</a>
     </li>
