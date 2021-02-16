@@ -2,7 +2,7 @@
   <nav class="navbar orange lighten-1">
     <div class="nav-wrapper">
       <div class="navbar-left">
-        <a href="#">
+        <a href="#" @click.prevent="$emit('toggle')">
           <i class="material-icons black-text">dehaze</i>
         </a>
         <span class="black-text">12.12.12</span>
@@ -14,6 +14,7 @@
             class="dropdown-trigger black-text"
             href="#"
             data-target="dropdown"
+            ref="dropdown"
           >
             USER NAME
             <i class="material-icons right">arrow_drop_down</i>
@@ -37,3 +38,7 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {};
+</script>
